@@ -1,0 +1,129 @@
+/* css variables */
+@import url(./partialvariables.css);
+
+/* global variables */
+@import url(./global.css);
+/* Start navigation */
+
+#header_area .navbar {
+  padding: 1rem 20rem;
+}
+
+#header_area .nav-link {
+  font: normal 500 1.5rem/0.2rem var(--bevietnam);
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 1.7rem;
+  color: var(--title-color);
+}
+
+#header_area .main-menu .navbar-brand {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+#header_area .main-menu .navbar-nav .active a {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+#header_area .main-menu .navbar-nav a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+/* End navigation */
+
+/* Banner Area */
+
+.site-main .site-banner .site-title h3 {
+  padding-top: 25%;
+  font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after {
+  content: "";
+  height: 2px;
+  width: 18vw;
+  background: black;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-10px);
+}
+.site-main .site-banner .site-title h1 {
+  font-size: 4rem;
+}
+
+.site-main .site-banner .site-title h4 {
+  font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img {
+  padding: 3rem 0;
+  width: 30rem;
+}
+
+/* End Banner Area */
+/* Start About Area */
+
+.site-main .about-area {
+  padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span {
+  display: block;
+  font: normal bold 49px/60px var(--bevietman);
+  letter-spacing: 21px;
+}
+.site-main .about-area .about-title .paragraph > p {
+  padding: 0.4rem 0;
+}
+/* End about area */
+
+/* Start brand area*/
+.site-main.brand-area {
+  padding: 1rem 20rem;
+  margin-bottom: 4rem;
+}
+
+.site-main .first-row .col-lg-4 {
+  display: flex;
+  justify-content: center;
+}
+.site-main .first-row .col-lg-4 > .single-brand {
+  border: 1px solid var(--border-color);
+  text-align: center;
+  padding: 1.8rem;
+  margin: 0.9rem 0;
+  width: 180px;
+  height: 100px;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+
+.site-main .first-row .col-lg-4 > .single-brand:hover {
+  box-shadow: var(--box-shadow);
+  transform: scale(1.1);
+}
+
+.site-main .first-row .col-lg-4 > .single-brand:hover > img {
+  filter: brightness(0.15);
+}
+.site-main.brand-area .experience-area {
+  padding-left: auto;
+}
+.site-main.brand-area .experience-area span {
+  display: block;
+}
+.site-main.brand-area .experience-area .years-area {
+  background: url(.) no repeat;
+  padding: 2rem 0;
+  width: 40rem;
+  height: 18rem;
+  padding-left: 8rem;
+} /* End brand area*/
